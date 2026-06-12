@@ -8,7 +8,6 @@ import shvyn22.flexingactivities.domain.geocoding.model.GeoLocation
 import shvyn22.flexingactivities.domain.geocoding.use_case.SearchLocationsUseCase
 import shvyn22.flexingactivities.feature.core.mvi.MviDelegate
 import shvyn22.flexingactivities.feature.core.mvi.MviDelegateImpl
-import shvyn22.flexingactivities.feature.core.mvi.updateState
 
 class SearchViewModel(
     private val searchLocations: SearchLocationsUseCase,
@@ -30,19 +29,19 @@ class SearchViewModel(
     }
 
     private fun toggleMode() {
-        updateState(onModeToggle())
+        reduceState(onModeToggle())
     }
 
     private fun updateQuery(query: String) {
-        updateState(onQueryChange(query))
+        reduceState(onQueryChange(query))
     }
 
     private fun updateLatitude(value: String) {
-        updateState(onLatChange(value))
+        reduceState(onLatChange(value))
     }
 
     private fun updateLongitude(value: String) {
-        updateState(onLonChange(value))
+        reduceState(onLonChange(value))
     }
 
     private fun submit() {
@@ -101,7 +100,7 @@ class SearchViewModel(
             latitude !in -90.0..90.0 ||
             longitude !in -180.0..180.0
         ) {
-            updateState(onSearchError(SearchError.INVALID_COORDINATES))
+            reduceState(onSearchError(SearchError.INVALID_COORDINATES))
             return
         }
 

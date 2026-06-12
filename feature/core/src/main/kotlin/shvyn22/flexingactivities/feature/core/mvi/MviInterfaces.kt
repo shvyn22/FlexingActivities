@@ -13,7 +13,7 @@ fun interface MviStateReducer<TState : MviState> {
 
 interface MviStateDelegate<TState : MviState> {
     val state: StateFlow<TState>
-    suspend fun reduceState(vararg reducers: MviStateReducer<TState>)
+    fun reduceState(vararg reducers: MviStateReducer<TState>)
 }
 
 interface MviEventDelegate<TEvent : MviEvent> {

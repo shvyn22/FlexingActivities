@@ -11,7 +11,6 @@ import shvyn22.flexingactivities.domain.favorites.use_case.ToggleFavoriteUseCase
 import shvyn22.flexingactivities.domain.weather.use_case.GetLocationRankingUseCase
 import shvyn22.flexingactivities.feature.core.mvi.MviDelegate
 import shvyn22.flexingactivities.feature.core.mvi.MviDelegateImpl
-import shvyn22.flexingactivities.feature.core.mvi.updateState
 import kotlin.time.Duration.Companion.milliseconds
 
 class DetailsViewModel(
@@ -110,7 +109,7 @@ class DetailsViewModel(
 
     private fun showNotification(message: DetailsMessage) {
         notificationJob?.cancel()
-        updateState(onNotification(message))
+        reduceState(onNotification(message))
         notificationJob = viewModelScope.launch {
             delay(3_000.milliseconds)
             reduceState(onNotificationDismissed())
@@ -120,6 +119,6 @@ class DetailsViewModel(
     private fun dismissNotification() {
         notificationJob?.cancel()
         notificationJob = null
-        updateState(onNotificationDismissed())
+        reduceState(onNotificationDismissed())
     }
 }
