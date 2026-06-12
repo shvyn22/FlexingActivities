@@ -1,0 +1,7 @@
+<resources>
+    <string name="favorites_title">Favorites</string>
+    <string name="favorites_empty">No saved locations yet</string>
+    <string name="favorites_cd_refresh">Refresh</string>
+    <string name="favorites_cd_delete">Delete</string>
+    <string name="favorites_last_updated">Last updated: %s</string>
+</resources>

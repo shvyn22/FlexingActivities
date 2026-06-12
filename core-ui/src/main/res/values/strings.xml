@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cd_back">Navigate back</string>
+    <string name="label_search">Search</string>
+    <string name="cd_search">Search</string>
+    <string name="label_favorites">Favorites</string>
+    <string name="cd_favorites">Favorites</string>
+    <string name="action_ok">OK</string>
+    <string name="cd_add_favorite">Add to favorites</string>
+    <string name="cd_remove_favorite">Remove from favorites</string>
+    <string name="activity_label_skiing">Skiing</string>
+    <string name="activity_label_surfing">Surfing</string>
+    <string name="activity_label_outdoor_sightseeing">Outdoor Sightseeing</string>
+    <string name="activity_label_indoor_sightseeing">Indoor Sightseeing</string>
+    <string name="activity_badge_skiing">SKI</string>
+    <string name="activity_badge_surfing">SURF</string>
+    <string name="activity_badge_outdoor_sightseeing">OUT</string>
+    <string name="activity_badge_indoor_sightseeing">IN</string>
+</resources>

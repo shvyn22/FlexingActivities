@@ -1,0 +1,9 @@
+<resources>
+    <string name="details_title_fallback">Details</string>
+    <string name="details_cd_back">Go back</string>
+    <string name="details_cd_add_favorite">Add to favorites</string>
+    <string name="details_cd_remove_favorite">Remove from favorites</string>
+    <string name="details_added_to_favorites">Added to favorites.</string>
+    <string name="details_removed_from_favorites">Removed from favorites.</string>
+    <string name="details_failed_to_toggle_favorites">Failed to update favorites.</string>
+</resources>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="search_title">Search</string>
+    <string name="search_mode_name">Name</string>
+    <string name="search_mode_coords">Coordinates</string>
+    <string name="search_field_location_name">Location name</string>
+    <string name="search_field_latitude">Latitude</string>
+    <string name="search_field_longitude">Longitude</string>
+    <string name="search_button">SEARCH</string>
+    <string name="search_empty_hint">Search for a location to get started</string>
+    <string name="error_invalid_coordinates">Invalid coordinates</string>
+</resources>
