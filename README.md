@@ -288,7 +288,7 @@ Full parameter definitions, weights, ideal ranges, hard-penalty thresholds, and 
 ---
 
 ## 8. Assumptions
-
+- **No geogrpahical common sense checking.** The scoring system doesn't include geographical checks for activities because of the API limitations. For example, you cannot do surfing in Berlin as there are no major water resources around it - thus, the Surfing score should be 0, but it actually isn't. 
 - **No wave data.** A production surf ranking would use swell height, swell period, swell direction, and tides. These are not available from Open-Meteo. The current surfing score is a wind-and-comfort proxy only.
 - **No coastline orientation.** Wind direction's contribution to surf quality depends on the angle between wind and coastline, which is not derivable without a coastline dataset. Wind direction was therefore dropped from the surfing model, and its weight (30%) was redistributed proportionally across the remaining parameters (resulting in wind speed carrying 50%).
 - **Single location per Details request.** Rankings are always computed for a single (lat, lon) pair. Area-wide comparison across multiple cities is not implemented.
