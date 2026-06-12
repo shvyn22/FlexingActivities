@@ -2,9 +2,8 @@
 
 A native Android app that ranks four outdoor/indoor activities — **Skiing, Surfing, Outdoor Sightseeing, Indoor Sightseeing** — for any location using real-time weather forecasts from the Open-Meteo API.
 
-
-
 https://github.com/user-attachments/assets/da6769bb-ef81-4bd4-945d-cb33786b85e6
+
 ---
 
 ## Table of Contents
