@@ -21,26 +21,20 @@ The parameter selection, weighting rationale, and threshold recommendations are 
 
 - https://www.mdpi.com/2073-4433/13/10/1569
 - https://www.snowtrex.co.uk/magazine/safe-skiing/skiing-in-all-weathers/
-- https://www.onthesnow.com/news/how-weather-affects-skiing/
 
 ### Surfing
 
 - https://surflearner.com/wind-for-surfing-explained/
-- https://www.surfline.com/surf-news/how-to-read-a-surf-forecast/2503
-- https://magicseaweed.com/news/how-to-read-a-surf-forecast/11336/
 
 ### Outdoor Human Comfort & Sightseeing
 
 - https://en.wikipedia.org/wiki/Apparent_temperature
-- https://en.wikipedia.org/wiki/Thermal_comfort
 - https://www.weather.gov/arx/why_dewpoint_vs_humidity
-- https://www.cdc.gov/disasters/extremeheat/index.html
 
 ### General Weather Interpretation
 
 - https://open-meteo.com/en/docs
 - https://www.wmo.int/
-- https://worldweather.wmo.int/
 
 ---
 
